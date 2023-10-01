@@ -5,6 +5,9 @@
 
    library(rwhatsapp)
 
+  usethis::use_git_config( user.name = "eljocharo",
+                           user.email = "joel.rocha.souza@gmail.com")
+
 
 
   chat <- rwa_read("data-raw/balanca_mais_nao_cai.txt") %>%
